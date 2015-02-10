@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <German_LocalePackAr>
+            <version>0.1.0</version>
+            <locale>es_AR</locale>
+            <title>Spanish (Argentinia) Language Pack</title>
+            <link_git>https://github.com/MaWoScha/German_LocalePack_es_AR</link_git>
+            <link_mage></link_mage>
+        </German_LocalePackAr>
+    </modules>
+
+    <global>
+        <models>
+            <localepackar>
+                <class>German_LocalePackAr_Model</class>
+            </localepackar>
+        </models>
+        <helpers>
+            <localepackar>
+                <class>German_LocalePackAr_Helper</class>
+            </localepackar>
+        </helpers>
+        <blocks>
+            <localepackar>
+                <class>German_LocalePackAr_Block</class>
+            </localepackar>
+        </blocks>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <localepackar>
+                        <class>localepackar/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </localepackar>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+	
+    <default>
+        <localepackar>
+             <notification>
+                <url>https://github.com/MaWoScha/German_LocalePack_es_AR</url>
+            </notification>
+        </localepackar>
+        <magesetup>
+            <default_country>AR</default_country>
+        </magesetup>
+    </default>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <localepackar>
+                    <files>
+                    	<default>localepackar.xml</default>
+                    </files>
+                </localepackar>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <German_LocalePackAr>
+                    <files>
+                        <localepackar>German_LocaleAr.csv</localepackar>
+                        <default>German_LocaleEs.csv</default>
+                    </files>
+                </German_LocalePackAr>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children> <!--
+                                        <localepacks translate="title" module="localepackar">
+                                            <title>Language Packs</title>
+                                    		<children> -->
+                                        		<localepackar translate="title" module="localepackar">
+                                            		<title>Spanish (Argentinia) Language Pack</title>
+                                        		</localepackar> <!--
+                                    		</children>
+                                        </localepacks> -->
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>

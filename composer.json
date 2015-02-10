@@ -1,0 +1,29 @@
+{
+  "name": "mawoscha/german-localepack-es-ar",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Spanish (Argentina) Community Translation",
+  "authors":[
+    {
+      "name":"MaWoScha"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "map": [
+      ["./app/code/community/German/LocalePackAr", "./app/code/community/German/LocalePackAr"],
+      ["./app/etc/modules/German_LocalePackAr.xml", "./app/etc/modules/German_LocalePackAr.xml"],
+      ["./app/locale/de_DE/German_LocaleAr.csv", "./app/locale/de_DE/German_LocaleAr.csv"],
+      ["./app/locale/es_AR/German_LocaleAr.csv", "./app/locale/es_AR/German_LocaleAr.csv"],
+      ["./app/locale/es_ES/German_LocaleAr.csv", "./app/locale/es_ES/German_LocaleAr.csv"],
+      ["./app/locale/pt_BR/German_LocaleAr.csv", "./app/locale/pt_BR/German_LocaleAr.csv"]
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
