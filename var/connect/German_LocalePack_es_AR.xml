@@ -13,7 +13,7 @@ Spanish language pack for Magento Commerce - Version for Argentina
 Spanisches Sprachpaket für Magento Commerce - Sprachversion für Argentinien</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.1.0</version>
+   <version>0.2.0</version>
    <stability>stable</stability>
    <notes>Compatible with Magento 1.6.x-1.9.2.x</notes>
    <authors>
@@ -62,8 +62,77 @@ Spanisches Sprachpaket für Magento Commerce - Sprachversion für Argentinien</d
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -71,8 +140,77 @@ Spanisches Sprachpaket für Magento Commerce - Sprachversion für Argentinien</d
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/locale/es_AR/translate.csv</path>
+         <path>frontend/default/default/locale/es_AR/translate.csv</path>
+         <path>frontend/rwd/default/locale/es_AR/translate.csv</path>
          <path>German/LocalePackAr</path>
          <path>modules/German_LocalePackAr.xml</path>
+         <path>es_AR/Mage_Adminhtml.csv</path>
+         <path>es_AR/Mage_AdminNotification.csv</path>
+         <path>es_AR/Mage_AmazonPayments.csv</path>
+         <path>es_AR/Mage_Api.csv</path>
+         <path>es_AR/Mage_Api2.csv</path>
+         <path>es_AR/Mage_Authorizenet.csv</path>
+         <path>es_AR/Mage_Backup.csv</path>
+         <path>es_AR/Mage_Bundle.csv</path>
+         <path>es_AR/Mage_Captcha.csv</path>
+         <path>es_AR/Mage_Catalog.csv</path>
+         <path>es_AR/Mage_CatalogInventory.csv</path>
+         <path>es_AR/Mage_CatalogRule.csv</path>
+         <path>es_AR/Mage_CatalogSearch.csv</path>
+         <path>es_AR/Mage_Centinel.csv</path>
+         <path>es_AR/Mage_Checkout.csv</path>
+         <path>es_AR/Mage_Cms.csv</path>
+         <path>es_AR/Mage_Compiler.csv</path>
+         <path>es_AR/Mage_ConfigurableSwatches.csv</path>
+         <path>es_AR/Mage_Connect.csv</path>
+         <path>es_AR/Mage_Contacts.csv</path>
+         <path>es_AR/Mage_Core.csv</path>
+         <path>es_AR/Mage_Cron.csv</path>
+         <path>es_AR/Mage_CurrencySymbol.csv</path>
+         <path>es_AR/Mage_Customer.csv</path>
+         <path>es_AR/Mage_Dataflow.csv</path>
+         <path>es_AR/Mage_Directory.csv</path>
+         <path>es_AR/Mage_Downloadable.csv</path>
+         <path>es_AR/Mage_Eav.csv</path>
+         <path>es_AR/Mage_GiftMessage.csv</path>
+         <path>es_AR/Mage_GoogleAnalytics.csv</path>
+         <path>es_AR/Mage_GoogleBase.csv</path>
+         <path>es_AR/Mage_GoogleCheckout.csv</path>
+         <path>es_AR/Mage_ImportExport.csv</path>
+         <path>es_AR/Mage_Index.csv</path>
+         <path>es_AR/Mage_Install.csv</path>
+         <path>es_AR/Mage_Log.csv</path>
+         <path>es_AR/Mage_Media.csv</path>
+         <path>es_AR/Mage_Newsletter.csv</path>
+         <path>es_AR/Mage_Oauth.csv</path>
+         <path>es_AR/Mage_Page.csv</path>
+         <path>es_AR/Mage_PageCache.csv</path>
+         <path>es_AR/Mage_Paygate.csv</path>
+         <path>es_AR/Mage_Payment.csv</path>
+         <path>es_AR/Mage_Paypal.csv</path>
+         <path>es_AR/Mage_PaypalUk.csv</path>
+         <path>es_AR/Mage_Persistent.csv</path>
+         <path>es_AR/Mage_Poll.csv</path>
+         <path>es_AR/Mage_ProductAlert.csv</path>
+         <path>es_AR/Mage_Rating.csv</path>
+         <path>es_AR/Mage_Reports.csv</path>
+         <path>es_AR/Mage_Review.csv</path>
+         <path>es_AR/Mage_Rss.csv</path>
+         <path>es_AR/Mage_Rule.csv</path>
+         <path>es_AR/Mage_Sales.csv</path>
+         <path>es_AR/Mage_SalesRule.csv</path>
+         <path>es_AR/Mage_Sendfriend.csv</path>
+         <path>es_AR/Mage_Shipping.csv</path>
+         <path>es_AR/Mage_Sitemap.csv</path>
+         <path>es_AR/Mage_Tag.csv</path>
+         <path>es_AR/Mage_Tax.csv</path>
+         <path>es_AR/Mage_Usa.csv</path>
+         <path>es_AR/Mage_Weee.csv</path>
+         <path>es_AR/Mage_Widget.csv</path>
+         <path>es_AR/Mage_Wishlist.csv</path>
+         <path>es_AR/Mage_XmlConnect.csv</path>
+         <path>es_AR/Phoenix_Moneybookers.csv</path>
          <path>es_AR/German_LocaleAr.csv</path>
          <path>de_DE/German_LocaleAr.csv</path>
          <path>es_ES/German_LocaleAr.csv</path>
@@ -80,7 +218,76 @@ Spanisches Sprachpaket für Magento Commerce - Sprachversion für Argentinien</d
       </path>
       <type>
          <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -95,9 +302,147 @@ Spanisches Sprachpaket für Magento Commerce - Sprachversion für Argentinien</d
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
